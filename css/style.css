@@ -32,15 +32,14 @@ h1{
     max-width: 100%;
     border-radius: 8px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    width: 100%;
 }
 
 .top-h3{
-    padding-top: 50px;
+    padding-top: 75px;
 }
 .top-description{
-    padding-top: 0px;
     font-size: 4rem;
 }
 .top-paragraph{
@@ -55,10 +54,16 @@ h1{
     color: white;
     margin-bottom: 100px;
 }
-#services h1{
-    font-size: 2rem;
+.services-text{
+    padding: 2% 3%;
+}
+
+#services h5{
+    color: grey;
 }
 .service-img{
     max-width: 80%;
-    margin: 20px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
 }
